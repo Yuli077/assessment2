@@ -17,7 +17,7 @@ print(text)
 print(dashes)
 print("\n")
 
-
+print("\n")
 
 import tui
 tui.Disneyland_Review_Analyser()
