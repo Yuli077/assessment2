@@ -80,15 +80,14 @@ def Disneyland_Review_Analyser():
     
     if choice_b == 'A' :
 
-      from process import count_reviews_by_park
+      from process import load_data, count_reviews_by_park
       from visual import plot_pie_chart
+
       if __name__ == "__main__":
-
         reviews = load_data()
-
         park_reviews_count = count_reviews_by_park(reviews)
-
         plot_pie_chart(park_reviews_count)
+
 
 
 

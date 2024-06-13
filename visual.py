@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 
 def plot_pie_chart(data):
 
-    labels =
-    sizes =
+    labels = list(data.keys())
+    sizes = list(data.values())
 
     plt.pie(sizes, labels=labels, autopct='%1.1f%%')
     plt.title("Number of Reviews by Park")

@@ -56,6 +56,7 @@ def Average_Score_per_year_by_Park(reviews, park_name_c, year_c):
                 total_score += review["Rating"]
                 count += 1
         
+
         if count == 0:
             return None  
         
