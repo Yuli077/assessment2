@@ -7,11 +7,7 @@ Any errors or invalid inputs should be handled appropriately.
 Please note that you do not need to read the data file or perform any other such processing in this module.
 """
 
-
-
 from process import load_data
-
-
 
 def Disneyland_Review_Analyser():
   choice = input("Please enter the letter which corresponds with your desired menu choice: \n[A] View Data \n[B] Visualise Data \n[X] Exit \n").upper()
@@ -79,21 +75,7 @@ def Disneyland_Review_Analyser():
     
     
     if choice_b == 'A' :
-
-      from process import load_data, count_reviews_by_park
-      from visual import plot_pie_chart
-
-      if __name__ == "__main__":
-        reviews = load_data()
-        park_reviews_count = count_reviews_by_park(reviews)
-        plot_pie_chart(park_reviews_count)
-
-
-
-
-
-
-
+      print("a ")
 
 
     if choice_b == 'B' :

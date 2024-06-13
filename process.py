@@ -63,16 +63,6 @@ def Average_Score_per_year_by_Park(reviews, park_name_c, year_c):
         return total_score / count
 
 
-def count_reviews_by_park(reviews):
-
-    park_reviews_count = {}
-    for review in reviews:
-        park_name = review["Branch"]
-        if park_name in park_reviews_count:
-            park_reviews_count[park_name] += 1
-        else:
-            park_reviews_count[park_name] = 1
-    return park_reviews_count
 
 
 
