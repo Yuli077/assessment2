@@ -79,7 +79,7 @@ def Disneyland_Review_Analyser():
     
     
     if choice_b == 'A' :
-      print("b ")
+
       from process import count_reviews_by_park
       from visual import plot_pie_chart
 
