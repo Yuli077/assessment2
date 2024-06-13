@@ -84,13 +84,13 @@ def Disneyland_Review_Analyser():
       from visual import plot_pie_chart
 
       def main():
-        # Load the data
+
         reviews = load_data()
 
-        # Count the number of reviews by park
+
         park_reviews_count = count_reviews_by_park(reviews)
 
-        # Plot the pie chart
+
         plot_pie_chart(park_reviews_count)
 
       if __name__ == "__main__":
