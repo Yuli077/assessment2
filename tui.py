@@ -61,7 +61,7 @@ def Disneyland_Review_Analyser():
     if choice_a == 'D' :
       print(" d")
 
-#........................................................................................
+
 
 
   if choice == 'B':
@@ -73,20 +73,20 @@ def Disneyland_Review_Analyser():
     if choice_b == 'A' :
         print("\nYou have chosen option A - Most Reviewed Parks\n")
 
-        from visual import option_A_in_Visual
-        option_A_in_Visual()
+
+
 
     if choice_b == 'B' :
         print("\nYou have chosen option B - Average Scores\n")
-      
+
+
       
     if choice_b == 'C' :
         print("\nYou have chosen option C - Park Ranking by Nationality\n")
-        
-        
+
+
     if choice_b == 'D' :
         print("\nYou have chosen option D - Most Popular Month by Park\n")
-
 
 
 
