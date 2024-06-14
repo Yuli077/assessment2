@@ -1,7 +1,4 @@
-"""
-This module is responsible for visualising the data using Matplotlib.
-Any visualisations should be generated via functions in this module.
-"""
+
 import matplotlib.pyplot as plt
 from process import load_data
 
@@ -120,5 +117,8 @@ def option_C_in_Visual():
         top_10_locations_by_rating(reviews, park_name)
 
 #........................................................................................
+
+
+
 
 
