@@ -19,6 +19,7 @@ def Disneyland_Review_Analyser():
 
 
     if choice_a == 'A' :
+       print("\nYou have chosen option A - View Reviews by Park\n")
        
        from process import View_Reviews_by_Park
        
@@ -29,6 +30,7 @@ def Disneyland_Review_Analyser():
 
       
     if choice_a == 'B' :
+      print("\nYou have chosen option B - Number of Reviews by Park and Reviewer Location \n")
 
       from process import Number_of_Reviews_by_Park_and_Reviewer_Location     
 
@@ -45,6 +47,7 @@ def Disneyland_Review_Analyser():
 
         
     if choice_a == 'C' :
+      print("\nYou have chosen option C - Average Score per year by Park \n")
 
       from process import Average_Score_per_year_by_Park     
 
@@ -76,6 +79,8 @@ def Disneyland_Review_Analyser():
     
     if choice_b == 'A' :
       print("a ")
+      from visual import pie_chart
+      pie_chart()
 
 
     if choice_b == 'B' :

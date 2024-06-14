@@ -17,5 +17,5 @@ print(text)
 print(dashes)
 print("\n")
 
-import tui
-tui.Disneyland_Review_Analyser()
+from tui import Disneyland_Review_Analyser
+Disneyland_Review_Analyser()
