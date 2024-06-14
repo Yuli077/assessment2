@@ -78,21 +78,21 @@ def Disneyland_Review_Analyser():
     
     
     if choice_b == 'A' :
-      print("a ")
-      from visual import pie_chart
-      pie_chart()
+        print("\nYou have chosen option A - Most Reviewed Parks\n")
 
+        from visual import option_A_in_Visual
+        option_A_in_Visual()
 
     if choice_b == 'B' :
-      print("b ")
+        print("\nYou have chosen option B - Average Scores\n")
       
       
     if choice_b == 'C' :
-        print("c ")
+        print("\nYou have chosen option C - Park Ranking by Nationality\n")
         
         
     if choice_b == 'D' :
-        print("d ")
+        print("\nYou have chosen option D - Most Popular Month by Park\n")
 
 
 
